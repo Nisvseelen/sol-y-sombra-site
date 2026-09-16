@@ -1,194 +1,222 @@
-# Privacy Policy — Sol y Sombra
+# Privacy Policy: Sol y Sombra
 
-**Last updated: 2026-04-23 · v1.0**
+**Last updated: 16 September 2026 | Version 1.1**
 
-This policy describes what data Sol y Sombra (the "App") collects, why, and how we handle it. We've tried to write it in plain language. Three official versions follow: English, Español (Castellano), Català.
-
----
+This policy explains how Sol y Sombra handles information. English, Spanish,
+and Catalan versions follow.
 
 ## English
 
-### TL;DR
-- We don't collect, store, or send your personal data anywhere.
-- The App asks for your location *only* to centre the map. It never leaves your phone.
-- Saved venues, preferred language, and other settings live in your device's local storage. We can't see them.
-- The App talks to two third-party services (Open-Meteo for weather, OpenStreetMap for map tiles). Each is described below.
-- No tracking, no analytics, no ads, no accounts, no in-app purchases in v1.
+### Summary
 
-### What we collect
-**Nothing — on our servers.** Sol y Sombra has no user account, no backend database tied to you, no analytics service that we run.
+Sol y Sombra has no account system, advertising, analytics, or tracking. We do
+not operate a backend that receives your location, saved places, or settings.
+Some app features request third-party map, weather, and image resources. Those
+providers receive the technical information needed to answer each request.
 
-### What's stored on your device
-The App uses your phone's local storage (`localStorage` in the WebView; `Preferences` plugin via Capacitor) to remember:
-- Saved venues you've hearted (a list of venue IDs).
-- Your preferred language (`en`, `es`, or `ca`).
-- Your sun/shade FAB choice (`sun` or `shade`).
-- A flag indicating whether you've completed the onboarding.
+### Information stored on your device
 
-These are stored only on your device. Uninstalling the App deletes them.
+The app stores saved venue identifiers, language, city, display preferences,
+onboarding state, optional notification settings, and reported-photo choices on
+your device. Uninstalling the app removes this local data.
 
 ### Location
-The App asks the operating system for your location **only** when you tap the locate button (📍). We use your latitude and longitude to centre the map and to compute distances to nearby venues. Your location is **not** transmitted to us, to advertisers, or to anyone else. It exists only in the App's memory and is discarded when the App closes.
 
-You can decline the location prompt. The App still works — it'll just centre on Plaça de Catalunya by default.
+Location permission is optional and requested only when you use a location
+feature. The app uses coordinates in memory to centre the map and calculate
+distances. We do not receive those coordinates.
+
+When the map is centred on your position, the map provider receives requests
+for the visible map area. The requested area can approximate your location.
+The provider and its delivery network also process normal request information,
+such as IP address, device or browser details, and request time. You can decline
+location permission and use a selected city centre instead.
 
 ### Third-party services
-The App makes anonymous network requests to two services:
 
-1. **Open-Meteo** (`api.open-meteo.com`) — weather data for the selected city (Barcelona, Madrid, Castelldefels). We send only the city's coordinates (a fixed value, not yours) and receive temperature/UV/conditions. Open-Meteo's privacy policy: https://open-meteo.com/en/privacy
-2. **OpenStreetMap** / **Carto** (`*.tile.openstreetmap.org`, `*.basemaps.cartocdn.com`) — map tiles. Standard HTTP requests for image tiles based on which area of the map you scroll to. The tile servers see your IP address and which tiles you fetch (this is true of all map apps). OSM privacy: https://wiki.osmfoundation.org/wiki/Privacy_Policy
+- **OpenFreeMap and OpenMapTiles data:** deliver the vector basemap. Map data
+  comes from OpenStreetMap contributors. OpenFreeMap states that it does not
+  use accounts, API keys, cookies, or regular IP-address logging. It may use
+  **Cloudflare** to deliver content, and Cloudflare may process request data.
+  See https://openfreemap.org/privacy/ and
+  https://www.cloudflare.com/privacypolicy/.
+- **Open-Meteo:** provides weather for fixed city coordinates, not your device
+  coordinates. See https://open-meteo.com/en/privacy.
+- **Wikimedia Commons:** provides credited venue photographs. Wikimedia and its
+  delivery infrastructure receive standard request data when an image loads.
+  See https://foundation.wikimedia.org/wiki/Policy:Privacy_policy.
 
-Both are EU-friendly (GDPR-compliant).
+Venue websites or directions open only after you choose them. Their own privacy
+policies then apply.
 
-### Crash reports / analytics
-**None in v1.** The App has no analytics SDK installed. If we add one in a future version, it will be opt-in and this policy will be updated.
+### Notifications
 
-### Ads
-**None in v1.** If we add ads in a future version, we'll show Apple's standard App Tracking Transparency prompt and update this policy. Ad-supported tier will always be optional and the App will remain free.
+Optional sun and morning notifications are scheduled locally on your device.
+The app does not use a remote push-notification service in this release.
 
-### In-app purchases
-**None in v1.** Sol y Sombra is fully free with every feature unlocked at launch. If a Pro tier is added in a future version, the purchase flow will go through the standard App Store / Google Play billing system and this policy will be updated.
+### Data we operate
 
-### Children
-The App is rated 4+ and contains no objectionable content. We don't knowingly collect data from anyone, regardless of age.
+We do not receive account data, contact information, saved places, advertising
+identifiers, payment information, analytics events, or precise coordinates on
+our servers because the app has no such backend. Email sent to support is
+processed by the email provider and retained only as needed to answer and
+resolve the request.
 
-### Your rights (GDPR / Spanish LOPDGDD)
-Since we don't collect personal data, there's nothing for us to delete or export on your behalf. Everything is on your device — uninstalling the App removes it.
+### Children and content
 
-### Contact
-Email: nis@reflectly.app
+The app is not directed specifically to children. It lists outdoor venues,
+including bars, and may contain references to alcoholic drinks. The App Store
+age rating is determined by Apple's current questionnaire.
 
-### Changes to this policy
-If this policy changes materially, we'll bump the version at the top and note what changed in the App Store release notes.
+### Your choices and rights
 
----
+You can deny location and notification permissions, remove saved places and
+photo reports in the app, or remove all local data by uninstalling. For a
+privacy or support request, email nis@reflectly.app. Depending on your location,
+you may have rights to access, correct, delete, restrict, or object to the
+processing of personal data held in support correspondence.
 
-## Español (Castellano)
+## Español
 
-### TL;DR
-- No recopilamos, almacenamos ni enviamos tus datos personales a ningún sitio.
-- La App pide tu ubicación *únicamente* para centrar el mapa. Nunca sale de tu móvil.
-- Los sitios guardados, el idioma preferido y otros ajustes viven en el almacenamiento local de tu dispositivo. No podemos verlos.
-- La App se comunica con dos servicios de terceros (Open-Meteo para el tiempo, OpenStreetMap para los mosaicos del mapa). Cada uno se describe abajo.
-- Sin seguimiento, sin analíticas, sin anuncios, sin cuentas, sin compras integradas en la v1.
+### Resumen
 
-### Qué recopilamos
-**Nada — en nuestros servidores.** Sol y Sombra no tiene cuenta de usuario, no tiene base de datos de backend asociada a ti, no tiene servicio de analíticas que ejecutemos.
+Sol y Sombra no tiene cuentas, publicidad, analíticas ni seguimiento. No
+operamos un servidor que reciba tu ubicación, sitios guardados o ajustes.
+Algunas funciones solicitan mapas, tiempo e imágenes a proveedores externos,
+que reciben la información técnica necesaria para responder.
 
-### Qué se almacena en tu dispositivo
-La App usa el almacenamiento local de tu móvil (`localStorage` en el WebView; plugin `Preferences` vía Capacitor) para recordar:
-- Los sitios que has marcado como favoritos (una lista de IDs de sitios).
-- Tu idioma preferido (`en`, `es` o `ca`).
-- Tu elección del FAB sol/sombra (`sun` o `shade`).
-- Una marca que indica si has completado la introducción.
+### Información guardada en el dispositivo
 
-Estos datos se almacenan solo en tu dispositivo. Desinstalar la App los elimina.
+La app guarda en tu dispositivo los identificadores de sitios favoritos, el
+idioma, la ciudad, preferencias visuales, el estado del tutorial, ajustes de
+notificaciones opcionales y fotos reportadas. Desinstalar la app elimina estos
+datos locales.
 
 ### Ubicación
-La App pide tu ubicación al sistema operativo **solo** cuando pulsas el botón de localización (📍). Usamos tu latitud y longitud para centrar el mapa y calcular distancias a los sitios cercanos. Tu ubicación **no** se transmite a nosotros, a anunciantes ni a nadie más. Existe solo en la memoria de la App y se descarta al cerrarla.
 
-Puedes rechazar el permiso de ubicación. La App funciona igualmente — simplemente se centrará en la Plaza de Cataluña por defecto.
+El permiso de ubicación es opcional y solo se solicita al usar una función de
+ubicación. Las coordenadas se usan en memoria para centrar el mapa y calcular
+distancias. Nosotros no las recibimos.
+
+Cuando centras el mapa en tu posición, el proveedor recibe peticiones del área
+visible. Esa área puede aproximar tu ubicación. El proveedor y su red de
+distribución también procesan datos normales de la petición, como dirección IP,
+datos del dispositivo o navegador y hora. Puedes rechazar el permiso y usar el
+centro de la ciudad seleccionada.
 
 ### Servicios de terceros
-La App hace peticiones de red anónimas a dos servicios:
 
-1. **Open-Meteo** (`api.open-meteo.com`) — datos del tiempo para la ciudad seleccionada (Barcelona, Madrid, Castelldefels). Enviamos solo las coordenadas de la ciudad (valor fijo, no las tuyas) y recibimos temperatura/UV/condiciones. Política de privacidad: https://open-meteo.com/en/privacy
-2. **OpenStreetMap** / **Carto** (`*.tile.openstreetmap.org`, `*.basemaps.cartocdn.com`) — mosaicos del mapa. Peticiones HTTP estándar de imágenes según el área del mapa que navegas. Los servidores de mosaicos ven tu dirección IP y qué mosaicos pides (esto pasa con todas las apps de mapas). Privacidad OSM: https://wiki.osmfoundation.org/wiki/Privacy_Policy
+- **OpenFreeMap y datos de OpenMapTiles:** ofrecen el mapa vectorial con datos
+  de colaboradores de OpenStreetMap. OpenFreeMap declara que no usa cuentas,
+  claves API, cookies ni registro habitual de direcciones IP. Puede usar
+  **Cloudflare**, que puede procesar datos de las peticiones. Consulta
+  https://openfreemap.org/privacy/ y
+  https://www.cloudflare.com/privacypolicy/.
+- **Open-Meteo:** ofrece el tiempo para coordenadas fijas de la ciudad, no para
+  las coordenadas de tu dispositivo. Consulta
+  https://open-meteo.com/en/privacy.
+- **Wikimedia Commons:** ofrece fotografías acreditadas de lugares. Wikimedia
+  y su infraestructura reciben datos normales de la petición al cargar una
+  imagen. Consulta
+  https://foundation.wikimedia.org/wiki/Policy:Privacy_policy.
 
-Ambos cumplen con el RGPD europeo.
+Las webs de los locales o las indicaciones se abren solo cuando tú las eliges.
+Entonces se aplican sus propias políticas.
 
-### Informes de fallos / analíticas
-**Ninguno en v1.** La App no tiene SDK de analíticas instalado. Si añadimos uno en una versión futura, será opt-in y actualizaremos esta política.
+### Notificaciones
 
-### Anuncios
-**Ninguno en v1.** Si añadimos anuncios en una versión futura, mostraremos el prompt estándar de App Tracking Transparency de Apple y actualizaremos esta política. El nivel con anuncios será siempre opcional y la App seguirá siendo gratuita.
+Las notificaciones opcionales de sol y del resumen matinal se programan
+localmente. Esta versión no usa un servicio remoto de notificaciones push.
 
-### Compras integradas
-**Ninguna en v1.** Sol y Sombra es totalmente gratuita en el lanzamiento, con todas las funciones desbloqueadas. Si se añade un nivel Pro en una versión futura, el flujo de compra pasará por el sistema estándar de App Store / Google Play y se actualizará esta política.
+### Datos que operamos
 
-### Menores
-La App está calificada para 4+ y no contiene contenido objetable. No recopilamos conscientemente datos de nadie, sin importar la edad.
+No recibimos en nuestros servidores datos de cuenta, contacto, sitios
+guardados, identificadores publicitarios, pagos, eventos analíticos ni tus
+coordenadas precisas porque la app no tiene ese backend. Los correos enviados a
+soporte se conservan solo el tiempo necesario para responder y resolver la
+solicitud.
 
-### Tus derechos (RGPD / LOPDGDD)
-Como no recopilamos datos personales, no hay nada que podamos eliminar o exportar por ti. Todo está en tu dispositivo — desinstalar la App lo borra.
+### Menores y contenido
 
-### Contacto
-Email: nis@reflectly.app
+La app no está dirigida específicamente a menores. Incluye lugares al aire
+libre, entre ellos bares, y puede contener referencias a bebidas alcohólicas.
+La clasificación de edad la determina el cuestionario vigente de Apple.
 
-### Cambios en esta política
-Si esta política cambia de forma significativa, subiremos la versión arriba e indicaremos qué cambió en las notas de la versión de la App Store.
+### Tus opciones y derechos
 
----
+Puedes denegar permisos, eliminar favoritos e informes de fotos, o desinstalar
+la app para borrar los datos locales. Para privacidad o soporte, escribe a
+nis@reflectly.app. Según tu ubicación, puedes solicitar acceso, corrección,
+eliminación, limitación u oposición respecto a los datos de correspondencia.
 
 ## Català
 
-### TL;DR
-- No recollim, emmagatzemem ni enviem les teves dades personals enlloc.
-- L'App demana la teva ubicació *només* per centrar el mapa. Mai surt del teu mòbil.
-- Els llocs desats, l'idioma preferit i altres ajustos viuen a l'emmagatzematge local del teu dispositiu. No els podem veure.
-- L'App parla amb dos serveis de tercers (Open-Meteo per al temps, OpenStreetMap per als mosaics del mapa). Cada un es descriu a sota.
-- Sense seguiment, sense analítiques, sense anuncis, sense comptes, sense compres integrades a la v1.
+### Resum
 
-### Què recollim
-**Res — als nostres servidors.** Sol y Sombra no té compte d'usuari, no té base de dades de backend associada a tu, no té servei d'analítiques que executem.
+Sol y Sombra no té comptes, publicitat, analítica ni seguiment. No operem cap
+servidor que rebi la teva ubicació, llocs desats o ajustos. Algunes funcions
+sol·liciten mapes, temps i imatges a proveïdors externs, que reben la informació
+tècnica necessària per respondre.
 
-### Què s'emmagatzema al teu dispositiu
-L'App utilitza l'emmagatzematge local del teu mòbil (`localStorage` al WebView; plugin `Preferences` via Capacitor) per recordar:
-- Els llocs que has marcat com a favorits (una llista d'IDs de llocs).
-- El teu idioma preferit (`en`, `es` o `ca`).
-- La teva tria del FAB sol/ombra (`sun` o `shade`).
-- Una marca que indica si has completat la introducció.
+### Informació desada al dispositiu
 
-Aquestes dades s'emmagatzemen només al teu dispositiu. Desinstal·lar l'App les elimina.
+L'app desa al dispositiu els identificadors dels llocs preferits, l'idioma, la
+ciutat, preferències visuals, l'estat del tutorial, ajustos de notificacions
+opcionals i fotos reportades. Desinstal·lar l'app elimina aquestes dades locals.
 
 ### Ubicació
-L'App demana la teva ubicació al sistema operatiu **només** quan toques el botó de localització (📍). Utilitzem la teva latitud i longitud per centrar el mapa i calcular distàncies a llocs propers. La teva ubicació **no** es transmet a nosaltres, ni a anunciants, ni a ningú més. Existeix només a la memòria de l'App i es descarta quan la tanques.
 
-Pots rebutjar el permís d'ubicació. L'App funciona igualment — simplement es centrarà a la Plaça de Catalunya per defecte.
+El permís d'ubicació és opcional i només es demana quan fas servir una funció
+d'ubicació. Les coordenades s'utilitzen en memòria per centrar el mapa i
+calcular distàncies. Nosaltres no les rebem.
+
+Quan centres el mapa en la teva posició, el proveïdor rep peticions de l'àrea
+visible. Aquesta àrea pot aproximar la teva ubicació. El proveïdor i la seva
+xarxa de distribució també processen dades normals de la petició, com l'adreça
+IP, dades del dispositiu o navegador i l'hora. Pots denegar el permís i fer
+servir el centre de la ciutat seleccionada.
 
 ### Serveis de tercers
-L'App fa peticions de xarxa anònimes a dos serveis:
 
-1. **Open-Meteo** (`api.open-meteo.com`) — dades del temps per a la ciutat seleccionada (Barcelona, Madrid, Castelldefels). Enviem només les coordenades de la ciutat (valor fix, no les teves) i rebem temperatura/UV/condicions. Política de privacitat: https://open-meteo.com/en/privacy
-2. **OpenStreetMap** / **Carto** (`*.tile.openstreetmap.org`, `*.basemaps.cartocdn.com`) — mosaics del mapa. Peticions HTTP estàndard d'imatges segons l'àrea del mapa que navegues. Els servidors de mosaics veuen la teva adreça IP i quins mosaics demanes (això passa amb totes les apps de mapes). Privacitat OSM: https://wiki.osmfoundation.org/wiki/Privacy_Policy
+- **OpenFreeMap i dades d'OpenMapTiles:** ofereixen el mapa vectorial amb dades
+  de col·laboradors d'OpenStreetMap. OpenFreeMap declara que no utilitza
+  comptes, claus API, galetes ni registre habitual d'adreces IP. Pot utilitzar
+  **Cloudflare**, que pot processar dades de les peticions. Consulta
+  https://openfreemap.org/privacy/ i
+  https://www.cloudflare.com/privacypolicy/.
+- **Open-Meteo:** ofereix el temps per a coordenades fixes de la ciutat, no per
+  a les coordenades del dispositiu. Consulta
+  https://open-meteo.com/en/privacy.
+- **Wikimedia Commons:** ofereix fotografies acreditades de llocs. Wikimedia i
+  la seva infraestructura reben dades normals de la petició quan es carrega
+  una imatge. Consulta
+  https://foundation.wikimedia.org/wiki/Policy:Privacy_policy.
 
-Tots dos compleixen amb el RGPD europeu.
+Els webs dels locals o les indicacions s'obren només quan tu els tries. A partir
+d'aquell moment s'apliquen les seves polítiques.
 
-### Informes d'errors / analítiques
-**Cap a la v1.** L'App no té cap SDK d'analítiques instal·lat. Si n'afegim un en una versió futura, serà opt-in i actualitzarem aquesta política.
+### Notificacions
 
-### Anuncis
-**Cap a la v1.** Si afegim anuncis en una versió futura, mostrarem el prompt estàndard d'App Tracking Transparency d'Apple i actualitzarem aquesta política. El nivell amb anuncis serà sempre opcional i l'App continuarà sent gratuïta.
+Les notificacions opcionals de sol i del resum matinal es programen localment.
+Aquesta versió no utilitza cap servei remot de notificacions push.
 
-### Compres integrades
-**Cap a la v1.** Sol y Sombra és totalment gratuïta al llançament, amb totes les funcions desbloquejades. Si s'afegeix un nivell Pro en una versió futura, el flux de compra passarà pel sistema estàndard d'App Store / Google Play i s'actualitzarà aquesta política.
+### Dades que operem
 
-### Menors
-L'App està qualificada per a 4+ i no conté contingut objectable. No recollim conscientment dades de ningú, sense importar l'edat.
+No rebem als nostres servidors dades de comptes, contacte, llocs desats,
+identificadors publicitaris, pagaments, esdeveniments analítics ni les teves
+coordenades precises perquè l'app no té aquest backend. Els correus enviats a
+suport es conserven només el temps necessari per respondre i resoldre la
+sol·licitud.
 
-### Els teus drets (RGPD / LOPDGDD)
-Com que no recollim dades personals, no hi ha res que puguem eliminar o exportar per tu. Tot és al teu dispositiu — desinstal·lar l'App ho esborra.
+### Menors i contingut
 
-### Contacte
-Email: nis@reflectly.app
+L'app no està dirigida específicament a menors. Inclou llocs a l'aire lliure,
+entre ells bars, i pot contenir referències a begudes alcohòliques. La
+classificació d'edat la determina el qüestionari vigent d'Apple.
 
-### Canvis en aquesta política
-Si aquesta política canvia de forma significativa, pujarem la versió a dalt i indicarem què va canviar a les notes de la versió de l'App Store.
+### Les teves opcions i drets
 
----
-
-## How to host this
-
-Apple requires a publicly-accessible URL. Cheapest options:
-
-1. **GitHub Pages** (free) — drop the markdown into a repo, enable Pages, point to `https://yourname.github.io/sol-y-sombra-privacy/`. Markdown renders automatically.
-2. **Netlify Drop** (free) — drag-and-drop a folder containing `index.html` (export this markdown to HTML first).
-3. **Your own domain** — host at e.g. `https://solysombra.app/privacy`.
-
-Apple's App Store Connect → App Information → **Privacy Policy URL** (one URL per locale or one shared URL — sharing is fine since this doc has all 3 languages stacked).
-
-## What I should update before publishing
-
-- [ ] Replace `nis@reflectly.app` with your preferred support email if different.
-- [ ] If you host this at a real URL, update the "Last updated" date and put that URL in App Store Connect.
-- [ ] When you add ads / IAP / analytics in v1.1+, re-introduce the corresponding sections in all three locales.
+Pots denegar permisos, eliminar preferits i informes de fotos, o desinstal·lar
+l'app per esborrar les dades locals. Per privacitat o suport, escriu a
+nis@reflectly.app. Segons la teva ubicació, pots sol·licitar accés, correcció,
+eliminació, limitació o oposició respecte a les dades de correspondència.
