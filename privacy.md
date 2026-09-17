@@ -1,6 +1,6 @@
 # Privacy Policy: Sol y Sombra
 
-**Last updated: 16 September 2026 | Version 1.1**
+**Last updated: 17 September 2026 | Version 1.2**
 
 This policy explains how Sol y Sombra handles information. English, Spanish,
 and Catalan versions follow.
@@ -9,10 +9,13 @@ and Catalan versions follow.
 
 ### Summary
 
-Sol y Sombra has no account system, advertising, analytics, or tracking. We do
-not operate a backend that receives your location, saved places, or settings.
-Some app features request third-party map, weather, and image resources. Those
-providers receive the technical information needed to answer each request.
+Sol y Sombra has no accounts, advertising, developer-operated analytics, or
+tracking. We do not operate a backend that receives your location, saved
+places, or settings. Third-party map, weather, image, and delivery providers
+may retain limited request logs for delivery, security, reliability, and
+service improvement. Those logs may include IP address, device, browser, or
+operating-system details, requested resources, referrer, and timestamps. This
+information is not used for advertising or cross-app tracking by Sol y Sombra.
 
 ### Information stored on your device
 
@@ -27,10 +30,11 @@ feature. The app uses coordinates in memory to centre the map and calculate
 distances. We do not receive those coordinates.
 
 When the map is centred on your position, the map provider receives requests
-for the visible map area. The requested area can approximate your location.
-The provider and its delivery network also process normal request information,
-such as IP address, device or browser details, and request time. You can decline
-location permission and use a selected city centre instead.
+for the visible map area. The requested area may reveal an approximate or
+precise area depending on the zoom level, but the app does not send your raw
+GPS coordinates. The provider and its delivery network can associate request
+logs with an IP address or device-level identifier. You can decline location
+permission and use a selected city centre instead.
 
 ### Third-party services
 
@@ -43,7 +47,10 @@ location permission and use a selected city centre instead.
 - **Open-Meteo:** provides weather for fixed city coordinates, not your device
   coordinates. See https://open-meteo.com/en/privacy.
 - **Wikimedia Commons:** provides credited venue photographs. Wikimedia and its
-  delivery infrastructure receive standard request data when an image loads.
+  delivery infrastructure receive standard request data when an image loads,
+  including the requested resource, IP address, device or browser details, and
+  request time. Wikimedia may use retained request information to understand
+  usage and improve its services.
   See https://foundation.wikimedia.org/wiki/Policy:Privacy_policy.
 
 Venue websites or directions open only after you choose them. Their own privacy
@@ -80,10 +87,14 @@ processing of personal data held in support correspondence.
 
 ### Resumen
 
-Sol y Sombra no tiene cuentas, publicidad, analíticas ni seguimiento. No
-operamos un servidor que reciba tu ubicación, sitios guardados o ajustes.
-Algunas funciones solicitan mapas, tiempo e imágenes a proveedores externos,
-que reciben la información técnica necesaria para responder.
+Sol y Sombra no tiene cuentas, publicidad, analítica operada por el
+desarrollador ni seguimiento. No operamos un servidor que reciba tu ubicación,
+sitios guardados o ajustes. Los proveedores externos de mapas, tiempo, imágenes
+y distribución pueden conservar registros limitados de las solicitudes para
+prestar, proteger, mantener y mejorar sus servicios. Esos registros pueden
+incluir la dirección IP, datos del dispositivo, navegador o sistema operativo,
+los recursos solicitados, el referente y la hora. Sol y Sombra no usa estos
+datos para publicidad ni seguimiento entre apps.
 
 ### Información guardada en el dispositivo
 
@@ -99,10 +110,10 @@ ubicación. Las coordenadas se usan en memoria para centrar el mapa y calcular
 distancias. Nosotros no las recibimos.
 
 Cuando centras el mapa en tu posición, el proveedor recibe peticiones del área
-visible. Esa área puede aproximar tu ubicación. El proveedor y su red de
-distribución también procesan datos normales de la petición, como dirección IP,
-datos del dispositivo o navegador y hora. Puedes rechazar el permiso y usar el
-centro de la ciudad seleccionada.
+visible. El área puede revelar una zona aproximada o precisa según el zoom, pero
+la app no envía tus coordenadas GPS sin procesar. El proveedor y su red de
+distribución pueden asociar los registros con una dirección IP o identificador
+del dispositivo. Puedes rechazar el permiso y usar el centro de la ciudad.
 
 ### Servicios de terceros
 
@@ -153,10 +164,14 @@ eliminación, limitación u oposición respecto a los datos de correspondencia.
 
 ### Resum
 
-Sol y Sombra no té comptes, publicitat, analítica ni seguiment. No operem cap
-servidor que rebi la teva ubicació, llocs desats o ajustos. Algunes funcions
-sol·liciten mapes, temps i imatges a proveïdors externs, que reben la informació
-tècnica necessària per respondre.
+Sol y Sombra no té comptes, publicitat, analítica operada pel desenvolupador ni
+seguiment. No operem cap servidor que rebi la teva ubicació, llocs desats o
+ajustos. Els proveïdors externs de mapes, temps, imatges i distribució poden
+conservar registres limitats de les peticions per prestar, protegir, mantenir i
+millorar els seus serveis. Aquests registres poden incloure l'adreça IP, dades
+del dispositiu, navegador o sistema operatiu, els recursos sol·licitats, el
+referent i l'hora. Sol y Sombra no utilitza aquestes dades per a publicitat ni
+seguiment entre apps.
 
 ### Informació desada al dispositiu
 
@@ -171,10 +186,11 @@ d'ubicació. Les coordenades s'utilitzen en memòria per centrar el mapa i
 calcular distàncies. Nosaltres no les rebem.
 
 Quan centres el mapa en la teva posició, el proveïdor rep peticions de l'àrea
-visible. Aquesta àrea pot aproximar la teva ubicació. El proveïdor i la seva
-xarxa de distribució també processen dades normals de la petició, com l'adreça
-IP, dades del dispositiu o navegador i l'hora. Pots denegar el permís i fer
-servir el centre de la ciutat seleccionada.
+visible. L'àrea pot revelar una zona aproximada o precisa segons el zoom, però
+l'app no envia les coordenades GPS sense processar. El proveïdor i la seva
+xarxa de distribució poden associar els registres amb una adreça IP o
+identificador del dispositiu. Pots denegar el permís i fer servir el centre de
+la ciutat seleccionada.
 
 ### Serveis de tercers
 
